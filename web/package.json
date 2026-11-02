@@ -1,0 +1,15 @@
+{
+  "name": "daily-briefing",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Your Daily Briefing: world news, AI, and cybersecurity in one place.",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
+  }
+}
